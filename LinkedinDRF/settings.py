@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'apps.post',
     'apps.chat',
     'apps.comments',
+    'apps.subscriptions',
+    'apps.events',
 ]
 
 MIDDLEWARE = [

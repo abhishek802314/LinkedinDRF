@@ -34,6 +34,8 @@ urlpatterns = [
     path('chat/',include('apps.chat.urls')),
     path('post/', include('apps.post.urls')),
     path('comments/', include('apps.comments.urls')),
+    path('subscriptions/', include('apps.subscriptions.urls')),
+    path('events/', include('apps.events.urls')),
 
 
     #swagger
